@@ -1,0 +1,11 @@
+name    'rubiconred-myst'
+version '0.1.0'
+author 'rubiconred'
+license 'Apache License, Version 2.0'
+summary 'MyST Continuous Delivery Platform for Oracle Fusion Middleware'
+description 'MyST is a declarative based, packaged solution for the design, install, 
+configuration and continuous deployment of Oracle Fusion Middleware and Applications.'
+project_page 'https://github.com/rubiconred'
+
+## Add dependencies, if any:
+dependency 'puppetlabs/stdlib', '>= 0.1.6'
