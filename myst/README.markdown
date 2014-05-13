@@ -18,7 +18,7 @@ MyST provides a number of key capabilities, including:
 Ability to define Fusion Middleware environment templates, from which we can provision new environments on demand.
 Easily automates the build and deployment of FMW solutions, and configurations into development, test, and production environments. 
 
-* Oracle products supported by MyST, include:
+Oracle products supported by MyST, include:
 * Oracle Weblogic Server
 * Oracle Service Bus (OSB)
 * Oracle Business Process Manager (BPM)
