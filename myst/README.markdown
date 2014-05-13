@@ -1,4 +1,4 @@
-#myst
+#MyST Puppet Module
 
 ####Table of Contents
 
@@ -37,7 +37,7 @@ For more information, visit http://rubiconred.com/myst
 
 ##Prerequisites
 
-MyST requires Java to be installed on all agents were MyST is to be run.
+MyST requires Java to be installed on all agents where MyST is to be run.
 
 Before using the plugin, you must copy the MyST binary into the standard files directory of the myst puppet module.
 

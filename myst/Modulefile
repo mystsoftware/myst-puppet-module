@@ -1,5 +1,5 @@
 name    'rubiconred-myst'
-version '0.1.0'
+version '0.2.0'
 author 'rubiconred'
 license 'Apache License, Version 2.0'
 summary 'MyST Continuous Delivery Platform for Oracle Fusion Middleware'
