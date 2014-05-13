@@ -72,7 +72,7 @@ class { 'myst':
 ###I want to build a simple WebLogic environment with my definition entirely in the Puppet manifest
 
 ```puppet
-class { 'myst:
+class { 'myst':
     myst_action => "provision",
     myst_properties => {
         'core.fmw.home' => "/u01/app/oracle/product/fmw",
