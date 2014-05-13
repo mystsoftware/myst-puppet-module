@@ -2,10 +2,10 @@
 
 ####Table of Contents
 
-1. [Overview]
-2. [Prerequisites]
-3. [Usage]
-4. [Reference]
+1. [Overview](#overview)
+2. [Prerequisites](#prerequisites)
+3. [Usage](#usage)
+4. [Reference](#reference)
 
 ##Overview
 
