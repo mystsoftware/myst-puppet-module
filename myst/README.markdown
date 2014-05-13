@@ -21,6 +21,7 @@ Easily automates the build and deployment of FMW solutions, and configurations i
 Oracle products supported by MyST, include:
 * Oracle Weblogic Server
 * Oracle Service Bus (OSB)
+* Oracle SOA Suite (SOA)
 * Oracle Business Process Manager (BPM)
 * Oracle Business Activity Monitoring (BAM)
 * Oracle Identity and Access Management 
