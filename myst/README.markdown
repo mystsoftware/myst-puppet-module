@@ -3,11 +3,11 @@
 ####Table of Contents
 
 1. [Overview](#overview)
-2. [New Features](#new features)
-3. [Release Notes](#release notes)
-4. [Prerequisites](#prerequisites)
-5. [Usage](#usage)
-6. [Reference](#reference)
+2. [New Features](#newfeatures)
+3. [Prerequisites](#prerequisites)
+4. [Usage](#usage)
+5. [Reference](#reference)
+6. [Release Notes](#releasenotes)
 
 ##Overview
 
@@ -50,7 +50,7 @@ For a full list of supported operating systems and products, visit http://www.ru
 
 For more information on MyST, visit http://rubiconred.com/myst
 
-##New Features
+##<a name="newfeatures">New Features
 
 What's new in MyST 2.5.2?
 * Fully automated provision support for SOA Suite 12c
@@ -61,13 +61,6 @@ What's new in MyST 2.5.2?
 * Automated configuration of Log handlers
 * Initialisation action for super-fast model generation and MyST quick start!
 * Oracle API Gateway platform model generation from scratch with minimal inputs
-
-##Release Notes
-
-###2.5.2 
-* Aligned MyST Puppet Module versioning with MyST versioning
-* Added support for license installation
-* Added support for setting MyST flags
 
 ##Prerequisites
 
@@ -216,3 +209,10 @@ Defaults to the installer under the module files directory which matches the mys
 
 The location of the MyST license file.
 Defaults to the license under the module files directory.
+
+##<a name="releasenotes">Release Notes
+
+###2.5.2 
+* Aligned MyST Puppet Module versioning with MyST versioning
+* Added support for license installation
+* Added support for setting MyST flags
