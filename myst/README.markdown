@@ -3,8 +3,8 @@
 ####Table of Contents
 
 1. [Overview](#overview)
-2. [New Features](#newfeatures)
-3. [Release Notes](#releasenotes)
+2. [New Features](#new features)
+3. [Release Notes](#release notes)
 4. [Prerequisites](#prerequisites)
 5. [Usage](#usage)
 6. [Reference](#reference)
@@ -63,6 +63,11 @@ What's new in MyST 2.5.2?
 * Oracle API Gateway platform model generation from scratch with minimal inputs
 
 ##Release Notes
+
+###2.5.2 
+* Aligned MyST Puppet Module versioning with MyST versioning
+* Added support for license installation
+* Added support for setting MyST flags
 
 ##Prerequisites
 
