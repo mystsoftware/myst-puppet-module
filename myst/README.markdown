@@ -3,9 +3,11 @@
 ####Table of Contents
 
 1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Usage](#usage)
-4. [Reference](#reference)
+2. [New Features](#newfeatures)
+3. [Release Notes](#releasenotes)
+4. [Prerequisites](#prerequisites)
+5. [Usage](#usage)
+6. [Reference](#reference)
 
 ##Overview
 
@@ -19,22 +21,47 @@ Ability to define Fusion Middleware environment templates, from which we can pro
 Easily automates the build and deployment of FMW solutions, and configurations into development, test, and production environments. 
 
 Oracle products supported by MyST, include:
+* Oracle JRockit
+* Oracle Java Development Kit (JDK)
 * Oracle Weblogic Server
 * Oracle Service Bus (OSB)
-* Oracle SOA Suite (SOA)
+* Oracle Service Oriented Architecture Suite (SOA) 
 * Oracle Business Process Manager (BPM)
 * Oracle Business Activity Monitoring (BAM)
-* Oracle Identity and Access Management 
+* Oracle Managed File Transfer (MTF)
+* Oracle Enterprise Scheduler Services (ESS)
+* Oracle API Gateway (OAG)
+* Oracle Identity and Access Management (OAM)
+* Oracle Adaptive Access Management (OAAM)
 * Oracle Unified Directory (OUD)
 * Oracle Policy Automation (OPA)
 * Oracle OAM Webgate
-* Oracle Enterprise Manager (OEM)
-* Oracle HTTP Server (OHS)
-* Oracle AIA Foundation Pack
+* Oracle Enterprise Manager (OEM) Cloud Control
+* Oracle Webtier - including HTTP Server (OHS)
+* Oracle Application Integration Architecture (AIA) Foundation Pack
+* Oracle Application Integration Architecture (AIA) Process Integration Packs
 * Oracle Data Integrator (ODI)
-* Oracle Webcenter and Content
+* Oracle Webcenter Portal (WCP) and Content (WCC/UCM)
+* Oracle Siebel
+* Oracle WebLogic extensions for Exalogic
+* Rubicon Red Scheduler
+For a full list of supported operating systems and products, visit http://www.rubiconred.com/products/myst/MySTCertificationMatrix
 
 For more information, visit http://rubiconred.com/myst
+
+##Newfeatures
+
+What's new in MyST 2.5.2?
+* Fully automated provision support for SOA Suite 12c
+* Improved "one-step" installation and configuration of
+** Siebel 8.2.2.4 (Windows) 
+** Oracle API Gateway 11.1.2.2.0 
+** Rubicon Red Scheduler 3.1.0
+* Automated configuration of Log handlers
+* Initialisation action for super-fast model generation and MyST quick start!
+* Oracle API Gateway platform model generation from scratch with minimal inputs
+
+##Releasenotes
 
 ##Prerequisites
 
@@ -112,7 +139,7 @@ The following parameters are available in the `myst` module:
 ####`myst_config`
 
 The identifer for the MyST platform configuration definition (aka model) to be used in MyST execution.
-Defaults to ''
+Defaults to '' (no existing configuration selected)
 
 ####`myst_action`
 
@@ -123,6 +150,11 @@ Defaults to 'version' (i.e. displays the MyST version)
 
 The properties to pass through to the MyST execution.
 Defaults to {}
+
+####`myst_flags`
+
+The flags to pass through to the MyST execution.
+Defaults to '' (no flags set)
 
 ####`myst_home`
 
@@ -160,8 +192,8 @@ Defaults to false
 ####`package_ensure`
 
 Valid options are:
- 'installed' - installs MyST
- 'absent' - uninstalls MyST
+* 'installed' - installs MyST
+* 'absent' - uninstalls MyST
 Defaults to installed.
 
 ####`myst_version`
@@ -173,3 +205,8 @@ Defaults to the latest version.
 
 The location of the MyST installer file.
 Defaults to the installer under the module files directory which matches the myst_version specified.
+
+####`myst_license`
+
+The location of the MyST license file.
+Defaults to the license under the module files directory.

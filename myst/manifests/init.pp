@@ -21,6 +21,10 @@
 #   The properties to pass through to the MyST execution.
 #   Defaults to {}
 #
+# [*myst_flags*]
+#   The flags to pass through to the MyST execution.
+#   Defaults to '' (no flags set)
+#
 # [*myst_home*]
 #   The home directory to install MyST to.
 #   Defaults to:
@@ -64,6 +68,10 @@
 #   Defaults to the installer under the module files directory which matches 
 #   the myst_version specified.
 #
+# [*myst_license*]
+#   The location of the MyST license file.
+#   Defaults to the license under the module files directory
+#
 # === Examples
 #
 #  class { 'myst':
@@ -83,6 +91,7 @@ class myst (
   $myst_config         = $myst::params::myst_config,
   $myst_action         = $myst::params::myst_action,
   $myst_properties     = $myst::params::myst_properties,
+  $myst_flags          = $myst::params::myst_flags,
   $myst_home           = $myst::params::myst_home,
   $myst_workspace_home = $myst::params::myst_workspace_home,
   $myst_web_enable     = $myst::params::myst_web_enable,
@@ -90,7 +99,8 @@ class myst (
   $environment_enable  = $myst::params::environment_enable,
   $package_ensure      = $myst::params::package_ensure,
   $myst_version        = $myst::params::myst_version,
-  $myst_installer      = $myst::params::myst_installer) inherits myst::params {
+  $myst_installer      = $myst::params::myst_installer,
+  $myst_license        = $myst::params::myst_license) inherits myst::params {
   
   validate_string($myst_config)
   validate_string($myst_action)
