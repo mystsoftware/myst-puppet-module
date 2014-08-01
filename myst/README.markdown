@@ -20,7 +20,7 @@ MyST provides a number of key capabilities, including:
 Ability to define Fusion Middleware environment templates, from which we can provision new environments on demand.
 Easily automates the build and deployment of FMW solutions, and configurations into development, test, and production environments. 
 
-Oracle products supported by MyST, include:
+Products supported by MyST, include:
 * Oracle JRockit
 * Oracle Java Development Kit (JDK)
 * Oracle Weblogic Server
@@ -45,23 +45,24 @@ Oracle products supported by MyST, include:
 * Oracle Siebel
 * Oracle WebLogic extensions for Exalogic
 * Rubicon Red Scheduler
+
 For a full list of supported operating systems and products, visit http://www.rubiconred.com/products/myst/MySTCertificationMatrix
 
-For more information, visit http://rubiconred.com/myst
+For more information on MyST, visit http://rubiconred.com/myst
 
-##Newfeatures
+##New Features
 
 What's new in MyST 2.5.2?
 * Fully automated provision support for SOA Suite 12c
 * Improved "one-step" installation and configuration of
-** Siebel 8.2.2.4 (Windows) 
-** Oracle API Gateway 11.1.2.2.0 
-** Rubicon Red Scheduler 3.1.0
+	* Siebel 8.2.2.4 (Windows) 
+	* Oracle API Gateway 11.1.2.2.0 
+	* Rubicon Red Scheduler 3.1.0
 * Automated configuration of Log handlers
 * Initialisation action for super-fast model generation and MyST quick start!
 * Oracle API Gateway platform model generation from scratch with minimal inputs
 
-##Releasenotes
+##Release Notes
 
 ##Prerequisites
 
