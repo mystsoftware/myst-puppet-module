@@ -1,8 +1,8 @@
 name    'rubiconred-myst'
-version '0.2.0'
+version '0.3.0'
 author 'rubiconred'
 license 'Apache License, Version 2.0'
-summary 'MyST Continuous Delivery Platform for Oracle Fusion Middleware'
+summary 'Oracle Fusion Middleware - WebLogic, SOA, BPM, IDM, WebCenter, Siebel'
 description 'MyST is a declarative based, packaged solution for the design, install, 
 configuration and continuous deployment of Oracle Fusion Middleware and Applications.'
 project_page 'https://github.com/rubiconred'

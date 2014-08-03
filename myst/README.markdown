@@ -49,7 +49,7 @@ For a full list of supported operating systems and products, visit http://www.ru
 
 For more information on MyST, visit http://rubiconred.com/myst
 
-##<a name="newfeatures">New Features
+##New Features
 
 What's new in MyST 2.5.2?
 * Fully automated provision support for SOA Suite 12c
@@ -209,7 +209,7 @@ Defaults to the installer under the module files directory which matches the mys
 The location of the MyST license file.
 Defaults to the license under the module files directory.
 
-##<a name="releasenotes">Release Notes
+##Release Notes
 
 ###0.3.0
 *Released August 3, 2014*
