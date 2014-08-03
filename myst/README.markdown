@@ -212,7 +212,17 @@ Defaults to the license under the module files directory.
 
 ##<a name="releasenotes">Release Notes
 
-###2.5.2 
-* Aligned MyST Puppet Module versioning with MyST versioning
+###0.3.0
+*Released August 3, 2014*
+* Added support for starting MyST web console
 * Added support for license installation
-* Added support for setting MyST flags
+* Added support for setting MyST flags to override the command line execution
+* Added support for removing MyST environment variable when `environment_enable` is false
+
+###0.2.0
+*Released May 14, 2014*
+* Minor tweaks
+
+###0.1.0
+*Released May 13, 2014*
+* Initial release

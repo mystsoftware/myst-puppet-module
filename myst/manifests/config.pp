@@ -22,7 +22,10 @@ class myst::config inherits myst {
           require => File_line[update-mac-path_1]
         }
       }
+    } 
+  } else {
+    file { "/etc/profile.d/myst-env.sh":
+      ensure  => absent,
     }
   }
-
 }

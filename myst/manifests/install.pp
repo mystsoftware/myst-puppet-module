@@ -1,5 +1,4 @@
 class myst::install inherits myst {
-  # Setup environment variables / path
   $myst_response_file="/tmp/myst-response.xml"
   file { $myst_response_file:
     ensure => present,
@@ -16,12 +15,17 @@ class myst::install inherits myst {
   if $package_ensure == installed {
 	  exec { "install-myst":
 	    command => "java -jar ${myst_install_file} ${myst_response_file}",
-	    require => [File[$myst_response_file],File[$myst_install_file]]
+	    require => [File[$myst_response_file],File[$myst_install_file]],
+	    before  => File[$myst_home],
 	  }
 	} elsif $package_ensure == absent {
 	  exec { "uninstall-myst":
       command => "java -jar ${myst_home}/Uninstaller/uninstaller.jar -c -f",
-      onlyif => "test -f ${myst_home}/Uninstaller/uninstaller.jar"
+      onlyif => "test -f ${myst_home}/Uninstaller/uninstaller.jar",
     }
-	}
+  }
+  file { $myst_home:
+    ensure  => directory,
+    require => Exec["install-myst"],
+  }
 }
