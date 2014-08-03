@@ -6,14 +6,13 @@
       "version_requirement": "\u003e\u003d 0.1.6"
     }
   ],
-  "description": "MyST is a declarative based, packaged solution for the design, install, \nconfiguration and continuous deployment of Oracle Fusion Middleware and Applications.",
   "license": "Apache License, Version 2.0",
   "name": "rubiconred-myst",
   "operatingsystem_support": [],
   "project_page": "https://github.com/rubiconred",
   "requirements": [],
-  "source": "",
-  "summary": "MyST Continuous Delivery Platform for Oracle Fusion Middleware",
-  "tags": [],
-  "version": "0.2.0"
+  "source": "https://github.com/rubiconred/myst-puppet-module",
+  "summary": "Oracle Fusion Middleware - WebLogic, SOA, BPM, IDM, WebCenter, Siebel",
+  "tags": ["soasuite","middleware","oracle","idm","fusion","fmw","java","webcenter","bpm","osb","soa","weblogic","siebel","tomcat","jenkins","myst"],
+  "version": "0.3.0"
 }
