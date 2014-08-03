@@ -16,9 +16,8 @@ The `myst` module for Puppet installs, configures and runs MyST.
 MyST provides an automated process for the installation, configuration, patching and deployment of Oracle Fusion Middleware and Applications.
 The automated installation is driven by simple models (or metadata), which defines the environment specific properties, which are captured during the initial platform design.
 MyST provides a number of key capabilities, including:
-
-Ability to define Fusion Middleware environment templates, from which we can provision new environments on demand.
-Easily automates the build and deployment of FMW solutions, and configurations into development, test, and production environments. 
+* Ability to define Fusion Middleware environment templates, from which we can provision new environments on demand.
+* Easily automates the build and deployment of FMW solutions, and configurations into development, test, and production environments. 
 
 Products supported by MyST, include:
 * Oracle JRockit
