@@ -2,12 +2,12 @@ class myst::config inherits myst {
   if $environment_enable == true {
     case $::osfamily {
       'Linux', 'AIX', 'Debian', 'RedHat', 'SuSE', 'FreeBSD', 'Archlinux', 'Gentoo' : {
-        file { "/etc/profile.d/myst-env.sh":
+        file { '/etc/profile.d/myst-env.sh':
           ensure  => present,
-          content => template("myst/myst-env.sh.erb"),
-          owner   => "root",
-          group   => "root",
-          mode    => 644
+          content => template('myst/myst-env.sh.erb'),
+          owner   => 'root',
+          group   => 'root',
+          mode    => '0644'
         }
       }
       'Darwin' : {
@@ -22,9 +22,9 @@ class myst::config inherits myst {
           require => File_line[update-mac-path_1]
         }
       }
-    } 
+    }
   } else {
-    file { "/etc/profile.d/myst-env.sh":
+    file { '/etc/profile.d/myst-env.sh':
       ensure  => absent,
     }
   }

@@ -9,7 +9,7 @@ class myst::params {
   $package_ensure = installed
   $myst_version = '2.5.2.1-SNAPSHOT'
   $myst_installer = "puppet:///modules/myst/myst-installer-${myst_version}.jar"
-  $myst_license = "puppet:///modules/myst/myst.lic"
+  $myst_license = 'puppet:///modules/myst/myst.lic'
   
   case $::osfamily {
     'Linux', 'AIX', 'Debian', 'RedHat', 'SuSE', 'FreeBSD', 'Archlinux', 'Gentoo' : {
