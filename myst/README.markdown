@@ -49,18 +49,6 @@ For a full list of supported operating systems and products, visit http://www.ru
 
 For more information on MyST, visit http://rubiconred.com/myst
 
-##New Features
-
-What's new in MyST 2.5.2?
-* Fully automated provision support for SOA Suite 12c
-* Improved "one-step" installation and configuration of
-	* Siebel 8.2.2.4 (Windows) 
-	* Oracle API Gateway 11.1.2.2.0 
-	* Rubicon Red Scheduler 3.1.0
-* Automated configuration of Log handlers
-* Initialisation action for super-fast model generation and MyST quick start!
-* Oracle API Gateway platform model generation from scratch with minimal inputs
-
 ##Prerequisites
 
 MyST requires Java to be installed on all agents where MyST is to be run.
@@ -210,6 +198,10 @@ The location of the MyST license file.
 Defaults to the license under the module files directory.
 
 ##Release Notes
+
+###0.3.1
+*Released July 4, 2015*
+* Puppet-lint fixes
 
 ###0.3.0
 *Released August 3, 2014*
