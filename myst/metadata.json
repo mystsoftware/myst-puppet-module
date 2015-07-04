@@ -1,18 +1,48 @@
 {
   "author": "rubiconred",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ], 
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": "\u003e\u003d 0.1.6"
+      "version_requirement": ">= 0.1.6"
     }
   ],
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "name": "rubiconred-myst",
   "operatingsystem_support": [],
   "project_page": "https://github.com/rubiconred",
   "requirements": [],
   "source": "https://github.com/rubiconred/myst-puppet-module",
   "summary": "Oracle Fusion Middleware - WebLogic, SOA, BPM, IDM, WebCenter, Siebel",
-  "tags": ["soasuite","middleware","oracle","idm","fusion","fmw","java","webcenter","bpm","osb","soa","weblogic","siebel","tomcat","jenkins","myst"],
-  "version": "0.3.0"
+  "tags": ["soasuite","middleware","oracle","idm","fusion","fmw","java","webcenter","bpm","osb","soa","weblogic","siebel","tomcat","jenkins","myst","11g","12c"],
+  "version": "0.3.1"
 }
