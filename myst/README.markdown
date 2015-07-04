@@ -47,7 +47,7 @@ Products supported by MyST, include:
 
 For a full list of supported operating systems and products, visit http://www.rubiconred.com/products/myst/MySTCertificationMatrix
 
-For more information on MyST, visit http://rubiconred.com/myst
+For more information on MyST, visit http://myst.rubiconred.com
 
 ##Prerequisites
 
