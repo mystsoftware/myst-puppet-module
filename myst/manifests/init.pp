@@ -100,7 +100,9 @@ class myst (
   $package_ensure      = $myst::params::package_ensure,
   $myst_version        = $myst::params::myst_version,
   $myst_installer      = $myst::params::myst_installer,
-  $myst_license        = $myst::params::myst_license) inherits myst::params {
+  $myst_license        = $myst::params::myst_license) {
+  
+  include myst::params
   
   validate_string($myst_config)
   validate_string($myst_action)
