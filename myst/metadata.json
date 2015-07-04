@@ -1,5 +1,13 @@
 {
   "author": "rubiconred",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 0.1.6"
+    }
+  ],
+  "license": "Apache-2.0",
+  "name": "rubiconred-myst",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -30,15 +38,6 @@
       ]
     }
   ], 
-  "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 0.1.6"
-    }
-  ],
-  "license": "Apache-2.0",
-  "name": "rubiconred-myst",
-  "operatingsystem_support": [],
   "project_page": "https://github.com/rubiconred",
   "requirements": [],
   "source": "https://github.com/rubiconred/myst-puppet-module",
