@@ -11,7 +11,7 @@ class myst::params {
   $myst_jenkins_enable = false
   $environment_enable = false
   $package_ensure = installed
-  $myst_version = '2.5.2.1-SNAPSHOT'
+  $myst_version = '3.1.2.0'
   $myst_installer = "puppet:///modules/myst/myst-installer-${myst_version}.jar"
   $myst_license = 'puppet:///modules/myst/myst.lic'
   
