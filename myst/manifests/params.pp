@@ -1,3 +1,7 @@
+# == Class: myst::params
+#
+# Default parameter values for the myst module
+#
 class myst::params {
   $myst_config = ''
   $myst_action = 'version'
@@ -11,8 +15,12 @@ class myst::params {
   $myst_installer = "puppet:///modules/myst/myst-installer-${myst_version}.jar"
   $myst_license = 'puppet:///modules/myst/myst.lic'
   
+  $unsupported_msg =
+    "The ${module_name} module is not supported on ${::osfamily}."
+  
   case $::osfamily {
-    'Linux', 'AIX', 'Debian', 'RedHat', 'SuSE', 'FreeBSD', 'Archlinux', 'Gentoo' : {
+    'Linux', 'AIX', 'Debian', 'RedHat', 'SuSE',
+    'FreeBSD', 'Archlinux', 'Gentoo' : {
       $myst_home = '/u01/app/oracle/admin/myst'
       $myst_workspace_home = '/u01/app/oracle/admin/myst/lib'
     }
@@ -23,10 +31,10 @@ class myst::params {
     'windows' : {
       $myst_home = 'C:/RubiconRed/MyST'
       $myst_workspace_home = 'C:/RubiconRed/MyST/lib'
-      fail("The ${module_name} module is not supported on an ${::osfamily} based system.")
+      fail($unsupported_msg)
     }
     default   : {
-      fail("The ${module_name} module is not supported on an ${::osfamily} based system.")
+      fail($unsupported_msg)
     }
   }
 
