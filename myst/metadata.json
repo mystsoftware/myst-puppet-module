@@ -43,5 +43,5 @@
   "source": "https://github.com/rubiconred/myst-puppet-module",
   "summary": "Oracle Fusion Middleware - WebLogic, SOA, BPM, IDM, WebCenter, Siebel",
   "tags": ["soasuite","middleware","oracle","idm","fusion","fmw","java","webcenter","bpm","osb","soa","weblogic","siebel","tomcat","jenkins","myst","11g","12c"],
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
