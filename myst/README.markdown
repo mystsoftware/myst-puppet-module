@@ -3,11 +3,10 @@
 ####Table of Contents
 
 1. [Overview](#overview)
-2. [New Features](#newfeatures)
-3. [Prerequisites](#prerequisites)
-4. [Usage](#usage)
-5. [Reference](#reference)
-6. [Release Notes](#releasenotes)
+2. [Prerequisites](#prerequisites)
+3. [Usage](#usage)
+4. [Reference](#reference)
+5. [Release Notes](#releasenotes)
 
 ##Overview
 
@@ -199,7 +198,7 @@ Defaults to the license under the module files directory.
 
 ##Release Notes
 
-###0.3.1
+###0.3.2
 *Released July 4, 2015*
 * Puppet-lint fixes
 
